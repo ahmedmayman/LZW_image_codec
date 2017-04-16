@@ -5,7 +5,6 @@
 % created by : Ahmed Mohamed Ayman
 % date : 13 April 2017
 %
-clear;
 
 %%
 % reading the input image
