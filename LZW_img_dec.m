@@ -1,7 +1,8 @@
-function dec_img = LZW_img_dec(enc_img)
+function [dec_img,dictionary] = LZW_img_dec(enc_img)
 % LZW_img_dec is a Lempel Ziv Welch image decoder
 % input : encoded image vector of N elements
 % output : decoded image vectpr using the LZW method
+%          final dictionary
 %
 % created by : Ahmed Mohamed Ayman
 % date : 13 April 2017
