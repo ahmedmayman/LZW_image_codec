@@ -1,7 +1,8 @@
-function [enc_img] = LZW_img_enc(img)
+function [enc_img,dictionary] = LZW_img_enc(img)
 % LZW_img_enc is a Lempel Ziv Welch image encoder
 % input : binarized image of N elements
 % output : encoded image using the LZW method
+%          final dictionary
 %
 % created by : Ahmed Mohamed Ayman
 % date : 13 April 2017
